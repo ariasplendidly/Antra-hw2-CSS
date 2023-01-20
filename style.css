@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: azure;
+    background: black;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.scene{
+    
+
+}
+.container-line{
+    padding: 0 0 20px 0;
+    border-bottom: 2px solid grey;
+    
+}
+
+.container{
+    display:flex;
+    box-sizing: border-box;
+    margin-left: 25%;
+    align-items: center;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 48%;
+}
+
+.text{
+    display: block;
+    margin-left: 15%;
+    flex: 0 1 auto;
+    width: 52%;
+    z-index: 3;
+    padding: 0 3rem 0 0;
+    flex: 0 1 auto;
+}
+
+.text h1{
+    margin: 0 0 0.4em;
+    font-size: larger;
+    text-align: left;
+    font-weight: bolder;
+    
+
+}
+
+
+
+.text h2{
+    font-weight: 100px;
+    font-size: medium;
+    text-align: center;
+    text-align: left;
+    font-weight: lighter;
+}
+
+img{
+    align-items: center;
+    margin-left: 30%;
+    display: block;
+    height: auto; 
+    width: auto; 
+    width: 50%;
+}
